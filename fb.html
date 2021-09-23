@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Facebook</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fb.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8" style="background-color: whitesmoke;">
+                <div class="jumbotron text-left">
+                    <img src="adc.svg" alt="Italian Trulli">
+                    <p>Facebook helps you connect and share with the people in your life.</p>
+                </div>
+            </div>
+            <div class="col-lg-4" style="background-color:whitesmoke;">
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email or Phone number">
+                            </div>
+
+                            <div class="form-group ">
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-lg">Log in</button>
+                        </form><br>
+                        <a href="YouTube.html">Forgotten password?</a>
+                        <hr>
+
+                        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Create New Account</button>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+
+                                <div class="asrith">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h1 class="modal-title">Sign Up</h1>
+                                            <p>It's quick and easy.
+                                                <p>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form class="form-inline" action="/action_page.php">
+                                                <div class="form-group">
+
+                                                    <input type="name" class="form-control" placeholder="First name" name="iy">
+                                                </div>
+                                                <div class="form-group">
+
+                                                    <input type="name" class="form-control" placeholder="Surname" name="pw">
+                                                </div>
+                                            </form><br>
+                                            <form action="/action_page.php">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email or Phone number">
+
+                                                </div>
+                                                <div class="form-group ">
+                                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="New Password">
+                                                </div>
+                                            </form>
+
+                                            <p>Date of Birth <span class="label label-default">?</span></p>
+                                            <form action="/action_page.php">
+                                                <label for="birthday"></label>
+                                                <input type="date" id="birthday" name="birthday">
+
+                                            </form><br>
+                                            <p>Gender <span class="label label-default">?</span></p>
+                                            <form>
+                                                <label class="radio-inline">
+                                                  <input type="radio" name="optradio" checked>Female
+                                                </label>
+                                                <label class="radio-inline">
+                                                  <input type="radio" name="optradio">Male
+                                                </label>
+                                                <a href="#demo" class="btn btn-default" data-toggle="collapse">
+                                                    <label class="radio-inline"><input type="radio" name="optradio">custom </label></a>
+                                                <div id="demo" class="collapse">
+                                                    <form action="/action_page.php">
+                                                        <select name="fb" class="custom-select">
+                                                        <option selected>Select your pronoun</option>
+                                                        <option value="she">She: "Wish her a happy birthday" </option>
+                                                        <option value="he">He: "Wish her a happy birthday" </option>
+                                                        <option value="they">They: "Wish her a happy birthday" </option>
+                                                      </select>
+                                                        <p>Your pronoun is visible to everyone.</p>
+                                                        <form action="/action_page.php">
+                                                            <div class="form-group">
+                                                                <input type="gender" class="form-control" id="gender" placeholder="Gender(optional) " name="gender">
+                                                            </div>
+                                                        </form>
+
+                                                    </form>
+                                                </div>
+
+                                                <div class="varma">
+                                                    <button type="submit" class="btn btn-success btn-lg">Sign up</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+
+</html>

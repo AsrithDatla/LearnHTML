@@ -1,0 +1,19 @@
+.panel,
+.panel-default {
+    padding-left: 25%;
+    padding-right: 5%;
+}
+
+.abcd {
+    text-align: center;
+}
+
+.navbar,
+.navbar-inverse,
+.container {
+    background-color: white;
+}
+
+.navbar-brand {
+    color: lightblue;
+}

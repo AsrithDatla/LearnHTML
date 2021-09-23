@@ -1,0 +1,30 @@
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    background-color: whitesmoke;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-style: oblique;
+}
+
+.col-lg-4 {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.asrith {
+    text-align: left;
+}
+
+.varma {
+    text-align: center;
+}
